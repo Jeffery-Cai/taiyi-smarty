@@ -1,0 +1,62 @@
+泰一数据库设计思想：      > OK ：--------是完成的意思----------
+		
+	未完成的页面：
+
+		服务体系页面 > NOOK
+			自己扩展  
+
+		在线留言 > NOOK
+			自己扩展    (利用bootstrap表单验证)
+
+		注册页面 > NOOK
+			自己扩展	 (利用bootstrap表单验证)
+
+		登陆页面 > NOOK
+			自己扩展  (利用bootstrap表单验证)
+
+
+		以ty_为前缀设计的表名
+
+	// 设计表    >  OK
+
+			ty_nav >
+				nav_id +
+				nav_name +
+				nav_link +s
+
+			ty_ad >
+				ad_id +
+				ad_name +
+				ad_link +
+				ad_img +
+
+			ty_news >
+				news_id +
+				news_name +
+				news_link +
+				news_content +
+				news_big_thumb +
+				news_small_thumb +
+
+			ty_case > 
+				case_id +
+				case_name +
+				case_link +
+				case_client +   // 客户名称
+				case_time +  // 案例时间
+ 				case_content +
+
+ 			ty_document  // 泰一单页 ( 关于泰一 页面 )
+ 				document_id +
+ 				document_name +
+ 				document_content + 
+
+
+
+泰一admin/index.php 显示总数  > NOOK (BUG)
+
+
+
+/*****************  完成的功能  **********************/
+	泰一 ： 导航功能
+	
